@@ -1,0 +1,118 @@
+Last login: Sun Mar  8 21:40:52 on ttys001
+(base) Adrii-Merlin-2:~ luistovar$ ls
+Applications		Downloads		Music
+Creative Cloud Files	EJERCICIO.CSV		Pictures
+Desktop			Library			Public
+Documents		Movies
+(base) Adrii-Merlin-2:~ luistovar$ cd documents
+(base) Adrii-Merlin-2:documents luistovar$ ls
+Adriana_Merlín_CV.pdf			Sesion_4.rtf
+CV_Adriana_Merlín.pdf			Sin título 2.rtf
+CV_Adriana_Merlín_.pdf			ejercicio_clase.xlsx
+Fundamentos MySQL.docx			proyectoBD_1
+IMG_4649 3.jpg				sesion_3.rtf
+Malinalco_Proyect.docx			~$Cálculos financieros_Malinalco.xlsx
+Proyecto_BD
+(base) Adrii-Merlin-2:documents luistovar$ cd Proyecto_BD
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ ls
+Mi_Proyecto_2	Mi_proyecto_1
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ mkdir Mi_Proyecto_3
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ ls
+Mi_Proyecto_2	Mi_Proyecto_3	Mi_proyecto_1
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ cd Mi_Proyecto_3
+(base) Adrii-Merlin-2:Mi_Proyecto_3 luistovar$ mkdir Base-de-Datos/Sesion-03/Postwork/
+mkdir: Base-de-Datos/Sesion-03: No such file or directory
+(base) Adrii-Merlin-2:Mi_Proyecto_3 luistovar$ ls
+(base) Adrii-Merlin-2:Mi_Proyecto_3 luistovar$ mkdir Base-de-Datos
+(base) Adrii-Merlin-2:Mi_Proyecto_3 luistovar$ cd Base-de-Datos/
+(base) Adrii-Merlin-2:Base-de-Datos luistovar$ mkdir Sesion_03_Postwork
+(base) Adrii-Merlin-2:Base-de-Datos luistovar$ ls
+Sesion_03_Postwork
+(base) Adrii-Merlin-2:Base-de-Datos luistovar$ cd Sesion_03_Postwork/
+(base) Adrii-Merlin-2:Sesion_03_Postwork luistovar$  cp -a /Users/luistovar/documents/proyecto_BD/Mi_proyecto_2 .
+(base) Adrii-Merlin-2:Sesion_03_Postwork luistovar$ ls
+Mi_proyecto_2
+(base) Adrii-Merlin-2:Sesion_03_Postwork luistovar$ cd Mi_proyecto_2/
+(base) Adrii-Merlin-2:Mi_proyecto_2 luistovar$ ls
+netflix_titles.csv		netflix_titles_serch.csv
+netflix_titles_result.csv
+(base) Adrii-Merlin-2:Mi_proyecto_2 luistovar$ mycli -u root -h ec2-54-213-51-169.us-west-2.compute.amazonaws.com
+Password: 
+mysql 10.1.44-MariaDB-0ubuntu0.18.04.1
+mycli 1.20.1
+Chat: https://gitter.im/dbcli/mycli
+Mail: https://groups.google.com/forum/#!forum/mycli-users
+Home: http://mycli.net
+Thanks to the contributor - zer09
+(none)> show databases                                                          
++--------------------+
+| Database           |
++--------------------+
+| ANDREA             |
+| Adrii_Merlin       |
+| FranciscoGarcia_DB |
+| Jazmin             |
+| Lilia              |
+| ROSS               |
+| Rosalia            |
+| Rosalia_TP         |
+| Sam                |
+| Sergio             |
+| Zamby              |
+| information_schema |
+| janet              |
+| maria              |
+| mysql              |
+| performance_schema |
++--------------------+
+
+16 rows in set
+Time: 0.168s
+(none)>  use Adrii_Merlin                                                       
+You are now connected to database "Adrii_Merlin" as user "root"
+Time: 0.131s
+Adrii_Merlin> create table Netflix (                                            
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1")
+Adrii_Merlin> create table Netflix(                                             
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1")
+Adrii_Merlin> create table Netflix                                              
+(1113, 'A table must have at least 1 column')
+Adrii_Merlin> create table Netflix(show_id int, type varchar(30), title varcha(5
+              5), director varchar(60), cast varchar(60), Country varchar(50),da
+              te_added varchar(60), release_year varchar(15), rating varchar(20)
+              , duration varchar (25), listed_in varchar(60), description varcha
+              r(255));                                                          
+(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'varcha(55), director varchar(60), cast varchar(60), Country varchar(50),date_add' at line 1")
+Adrii_Merlin> create table Netflix(show_id int, type varchar(30), title varchar(
+              55), director varchar(60), cast varchar(60), Country varchar(50),d
+              ate_added varchar(60), release_year varchar(15), rating varchar(20
+              ), duration varchar (25), listed_in varchar(60), description varch
+              ar(255));                                                         
+Query OK, 0 rows affected
+Time: 0.214s
+Adrii_Merlin> show tables;                                                      
++------------------------+
+| Tables_in_Adrii_Merlin |
++------------------------+
+| MOVIES                 |
+| Netflix                |
+| USERS                  |
++------------------------+
+3 rows in set
+Time: 0.165s
+
+(base) Adrii-Merlin-2:Mi_proyecto_2 luistovar$ mycli -u root -h ec2-54-213-51-169.us-west-2.compute.amazonaws.com Adrii_Merlin --local-infile=1
+Password: 
+mysql 10.1.44-MariaDB-0ubuntu0.18.04.1
+mycli 1.20.1
+Chat: https://gitter.im/dbcli/mycli
+Mail: https://groups.google.com/forum/#!forum/mycli-users
+Home: http://mycli.net
+Thanks to the contributor - Heath Naylor
+Adrii_Merlin> load data local infile "/Users/luistovar/documents/proyecto_bd/Mi_
+              proyecto_3/base-de-datos/sesion_03_postwork/Mi_proyecto_2/netflix_
+              titles.csv" INTO TABLE `Netflix` fields terminated by ',' enclosed
+               by '"' lines terminated by '\r\n';                               
+Query OK, 6235 rows affected
+Time: 9.861s
+Adrii_Merlin>  
