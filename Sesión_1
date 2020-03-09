@@ -1,0 +1,159 @@
+Last login: Sun Mar  8 20:37:37 on ttys000
+(base) Adrii-Merlin-2:~ luistovar$ Last login: Sun Mar  8 20:36:37 on ttys000
+(base) Adrii-Merlin-2:~ luistovar$ LS
+Applications		Downloads		Music
+Creative Cloud Files	EJERCICIO.CSV		Pictures
+Desktop			Library			Public
+Documents		Movies
+(base) Adrii-Merlin-2:~ luistovar$ CD Documents
+(base) Adrii-Merlin-2:~ luistovar$ ls
+Applications		Downloads		Music
+Creative Cloud Files	EJERCICIO.CSV		Pictures
+Desktop			Library			Public
+Documents		Movies
+(base) Adrii-Merlin-2:~ luistovar$ cd documents
+(base) Adrii-Merlin-2:documents luistovar$ ls
+Adriana_Merlín_CV.pdf			Sesion_4.rtf
+CV_Adriana_Merlín.pdf			Sin título 2.rtf
+CV_Adriana_Merlín_.pdf			ejercicio_clase.xlsx
+Fundamentos MySQL.docx			proyectoBD_1
+IMG_4649 3.jpg				sesion_3.rtf
+Malinalco_Proyect.docx			~$Cálculos financieros_Malinalco.xlsx
+(base) Adrii-Merlin-2:documents luistovar$ mkdir Proyecto_BD
+(base) Adrii-Merlin-2:documents luistovar$ CD Proyecto_BD
+(base) Adrii-Merlin-2:documents luistovar$ cd Proyecto_BD/
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ mkdir Mi_proyecto_1
+(base) Adrii-Merlin-2:Proyecto_Bluistovar  ttys000                   Sun Mar  8 20:37   still logged in
+luistovar  ttys000                   Sun Mar  8 20:36 - 20:36  (00:00)
+luistovar  ttys000                   Thu Mar  5 19:45 - 19:45  (00:00)
+luistovar  ttys000                   Wed Mar  4 23:49 - 23:49  (00:00)
+luistovar  ttys000                   Wed Mar  4 23:00 - 23:00  (00:00)
+luistovar  ttys000                   Tue Mar  3 19:40 - 19:40  (00:00)
+luistovar  ttys000                   Tue Mar  3 00:01 - 00:01  (00:00)
+luistovar  ttys000                   Mon Mar  2 23:47 - 23:47  (00:00)
+luistovar  ttys000                   Mon Mar  2 22:13 - 22:13  (00:00)
+luistovar  ttys000                   Mon Mar  2 22:11 - 22:11  (00:00)
+luistovar  ttys000                   Wed Feb 26 20:32 - 20:32  (00:00)
+luistovar  ttys000                   Tue Feb 25 21:03 - 21:03  (00:00)
+
+wtmp begins Fri Mar  1 00:49 
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:~ luistovar$ LS
+-bash: syntax error near unexpected token `Adrii-Merlin-2:~'
+(base) Adrii-Merlin-2:~ luistovar$ Applications
+Applications
+(base) Adrii-Merlin-2:~ luistovar$ ApplicationsDownloadsMusic
+-bash: ApplicationsDownloadsMusic: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Creative Cloud FilesEJERCICIO.CSVPictures
+-bash: Creative: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Desktop
+Desktop
+(base) Adrii-Merlin-2:~ luistovar$ Desktop
+Desktop
+(base) Adrii-Merlin-2:~ luistovar$ DesktopLibraryPublic
+-bash: DesktopLibraryPublic: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Documents
+Documents
+(base) Adrii-Merlin-2:~ luistovar$ DocumentsMovies
+-bash: DocumentsMovies: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:~ luistovar$ CD Documents
+-bash: syntax error near unexpected token `Adrii-Merlin-2:~'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:~ luistovar$ ls
+-bash: syntax error near unexpected token `Adrii-Merlin-2:~'
+(base) Adrii-Merlin-2:~ luistovar$ Applications
+Applications
+(base) Adrii-Merlin-2:~ luistovar$ ApplicationsDownloadsMusic
+-bash: ApplicationsDownloadsMusic: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Creative Cloud FilesEJERCICIO.CSVPictures
+-bash: Creative: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Desktop
+Desktop
+(base) Adrii-Merlin-2:~ luistovar$ Desktop
+Desktop
+(base) Adrii-Merlin-2:~ luistovar$ DesktopLibraryPublic
+-bash: DesktopLibraryPublic: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Documents
+Documents
+(base) Adrii-Merlin-2:~ luistovar$ DocumentsMovies
+-bash: DocumentsMovies: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:~ luistovar$ cd documents
+-bash: syntax error near unexpected token `Adrii-Merlin-2:~'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:documents luistovar$ ls
+-bash: syntax error near unexpected token `Adrii-Merlin-2:documents'
+(base) Adrii-Merlin-2:~ luistovar$ Adriana_Merlín_CV.pdfSesion_4.rtf
+-bash: Adriana_Merlín_CV.pdfSesion_4.rtf: command not found
+(base) Adrii-Merlin-2:~ luistovar$ CV_Adriana_Merlín.pdfSin título 2.rtf
+-bash: CV_Adriana_Merlín.pdfSin: command not found
+(base) Adrii-Merlin-2:~ luistovar$ CV_Adriana_Merlín_.pdfejercicio_clase.xlsx
+-bash: CV_Adriana_Merlín_.pdfejercicio_clase.xlsx: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Fundamentos MySQL.docxproyectoBD_1
+-bash: Fundamentos: command not found
+(base) Adrii-Merlin-2:~ luistovar$ IMG_4649 3.jpgsesion_3.rtf
+-bash: IMG_4649: command not found
+(base) Adrii-Merlin-2:~ luistovar$ Malinalco_Proyect.docx~$Cálculos financieros_Malinalco.xlsx
+-bash: Malinalco_Proyect.docx~?lculos: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:documents luistovar$ mkdir Proyecto_BD
+-bash: syntax error near unexpected token `Adrii-Merlin-2:documents'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:documents luistovar$ CD Proyecto_BD
+-bash: syntax error near unexpected token `Adrii-Merlin-2:documents'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:documents luistovar$ cd Proyecto_BD/
+-bash: syntax error near unexpected token `Adrii-Merlin-2:documents'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Proyecto_BD luistovar$ mkdir Mi_proyecto_1
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Proyecto_BD'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Proyecto_BD luistovar$ cd Mi_proyecto_1/
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Proyecto_BD'
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Mi_proyecto_1 luistovar$ curl -O https://www.kaggle.com/shivamb/netflix-shows/download
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Mi_proyecto_1'
+(base) Adrii-Merlin-2:~ luistovar$   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+-bash: fg: %: no such job
+(base) Adrii-Merlin-2:~ luistovar$                                  Dload  Upload   Total   Spent    Left  Speed
+-bash: Dload: command not found
+(base) Adrii-Merlin-2:~ luistovar$   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+-bash: 0: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Mi_proyecto_1 luistovar$ LS
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Mi_proyecto_1'
+(base) Adrii-Merlin-2:~ luistovar$ download
+-bash: download: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Mi_proyecto_1 luistovar$ unzip download.zip
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Mi_proyecto_1'
+(base) Adrii-Merlin-2:~ luistovar$ unzip:  cannot find or open download.zip, download.zip.zip or download.zip.ZIP.
+-bash: unzip:: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Mi_proyecto_1 luistovar$  curl -O https://www.kaggle.com/datasnaek/youtube-new
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Mi_proyecto_1'
+(base) Adrii-Merlin-2:~ luistovar$   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+-bash: fg: %: no such job
+(base) Adrii-Merlin-2:~ luistovar$                                  Dload  Upload   Total   Spent    Left  Speed
+-bash: Dload: command not found
+(base) Adrii-Merlin-2:~ luistovar$ 100  454k    0  454k    0     0   347k      0 --:--:--  0:00:01 --:--:--  347k
+-bash: 100: command not found
+(base) Adrii-Merlin-2:~ luistovar$ (base) Adrii-Merlin-2:Mi_proyecto_1 luistovar$ ls
+-bash: syntax error near unexpected token `Adrii-Merlin-2:Mi_proyecto_1'
+(base) Adrii-Merlin-2:~ luistovar$ downloadyoutube-new
+-bash: downloadyoutube-new: command not found
+(base) Adrii-Merlin-2:~ luistovar$ pwd
+/Users/luistovar
+(base) Adrii-Merlin-2:~ luistovar$ ls
+Applications		Documents		Library			Pictures
+Creative Cloud Files	Downloads		Movies			Public
+Desktop			EJERCICIO.CSV		Music
+(base) Adrii-Merlin-2:~ luistovar$ cd Documents
+(base) Adrii-Merlin-2:Documents luistovar$ ls
+Adriana_Merlín_CV.pdf			Malinalco_Proyect.docx			proyectoBD_1
+CV_Adriana_Merlín.pdf			Proyecto_BD				sesion_3.rtf
+CV_Adriana_Merlín_.pdf			Sesion_4.rtf				~$Cálculos financieros_Malinalco.xlsx
+Fundamentos MySQL.docx			Sin título 2.rtf
+IMG_4649 3.jpg				ejercicio_clase.xlsx
+(base) Adrii-Merlin-2:Documents luistovar$ cd Proyecto_BD
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ ls
+Mi_proyecto_1
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ cd Mi_Proyecto_1
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ ls
+download	youtube-new
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ cd -a youtube-new youtube-new_1 
+-bash: cd: -a: invalid option
+cd: usage: cd [-L|-P] [dir]
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ ls
+download	youtube-new
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ cp -a youtube-new youtube-new_1 
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ ls
+download	youtube-new	youtube-new_1
+(base) Adrii-Merlin-2:Mi_Proyecto_1 luistovar$ 
