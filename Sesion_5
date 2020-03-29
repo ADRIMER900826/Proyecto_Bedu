@@ -1,0 +1,57 @@
+Creación de Carpeta Sesión 05 dede terminal:
+
+(base) Adrii-Merlin-2:~ luistovar$ ls
+(base) Adrii-Merlin-2:~ luistovar$ cd Documents
+(base) Adrii-Merlin-2:Documents luistovar$ cd Proyecto_BD
+
+(base) Adrii-Merlin-2:Mi_Proyecto_5 luistovar$ mkdir Sesion05_Postwork
+(base) Adrii-Merlin-2:Mi_Proyecto_5 luistovar$ ls
+Sesion05_Postwork
+
+Entar al servidor AWS para MongoBD:
+mongodb://root:bedu0583@ec2-54-213-51-169.us-west-2.compute.amazonaws.com:27017/?authSource=admin&connectTimeoutMS=600000
+
+CREATE DATABASE: AdriiMerlin
+CREATE COLLECTION: Netflix
+
+ADD DATA:
+
+IMPORT FILE EN CSV: Import data_ CSV_ C:/Users/luistovar/Documents/Proyecto_BD/Mi_Proyecto_5/netflix_titles 2.csv
+
+
+¿cuántos registros hay de cierto tipo o categoría?
+
+{
+  _id: "$type",
+  Totales: {
+    $sum: 1
+  }
+  
+  Total: 6233
+  
+¿cuántos registros hay de dos o más categorías?
+
+{
+  _id: "$type",
+  Totales: {
+    $sum: 1
+  }
+  
+  
+  _id:"TV Show"
+Totales:1968
+
+_id:"Movie"
+Totales:4265
+
+¿cuántos registros hay donde un campo sea mayor, menor o igual a cierto valor?
+
+{"listed_in": {$gte: "2019"}}
+
+Result: 1303
+
+¿cuántos registros tienen un campo que puede o no pertenecer a una lista de valores?
+
+{ "title" : {$nin:["Love","Romace"]}}
+Result:6230
+
