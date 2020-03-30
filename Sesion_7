@@ -1,0 +1,17 @@
+Ingresar a Mongo Atlas
+https://www.mongodb.com/cloud/atlas
+
+Crear Usuario y Contraseña
+
+Crear Cluster: Cluster0
+
+Una ves con el Cluster se crea conexión con MongoDB Compass, a traves de:
+
+mongodb+srv://AdrianaMerlin:<password>@cluster0-zljwm.mongodb.net/test
+
+Crear Colección:
+BD.API
+
+Colección:
+Contrataciones abiertas.json
+100 documentos
