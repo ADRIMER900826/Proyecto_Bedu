@@ -1,0 +1,79 @@
+Desde la terminal:
+
+(base) Adrii-Merlin-2:~ luistovar$ ls
+(base) Adrii-Merlin-2:~ luistovar$ cd Documents
+(base) Adrii-Merlin-2:Documents luistovar$ cd Proyecto_BD
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ MKDIR Mi_Proyecto_6
+(base) Adrii-Merlin-2:Proyecto_BD luistovar$ cd Mi_Proyecto_6
+(base) Adrii-Merlin-2:Mi_Proyecto_6 luistovar$ mkdir Sesion06_Postwork
+(base) Adrii-Merlin-2:Mi_Proyecto_6 luistovar$ ls
+Sesion06_Postwork
+
+Entar al servidor AWS para MongoBD:
+mongodb://root:bedu0583@ec2-54-213-51-169.us-west-2.compute.amazonaws.com:27017/?authSource=admin&connectTimeoutMS=600000
+
+
+¿Cuál es la lista de todos los documentos que incluyan el "texto" en algún campo?
+
+Filter:{ "title": /Love/ } 
+Result: 127
+
+¿Cuáles son los documentos que tienen mayor o menor cantidad en algún campo?
+
+Filter: {"listed_in": {$gte: "2019"}}
+Result: 1303
+
+¿Cuál es el promedio de todos los valores de algún campo como edad, precio, cantidad?
+
+
+¿Cuál es la cantidad de documentos por tipo de producto o por cierta fecha?
+
+$Group
+{
+  _id: "$type",
+  Totales: {
+    $sum: 1
+  }
+
+Result
+  
+  _id:"TV Show"
+Totales:1968
+
+_id:"Movie"
+Totales:4265
+
+¿Cuál es el tipo con más o menos colecciones?
+
+$Group
+
+{
+  _id: "$type",
+  total: {
+    $sum: 1
+  }
+}
+
+
+Result: 
+
+  _id:"TV Show"
+Totales:1968
+
+_id:"Movie"
+Totales:4265
+
+
+$Sort
+
+{
+  total: 1
+  
+
+Result:
+
+_id:"Movie"
+Totales:4265
+  
+}
+
